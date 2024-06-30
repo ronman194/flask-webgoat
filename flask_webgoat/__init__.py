@@ -49,3 +49,4 @@ def create_app():
         app.register_blueprint(ui.bp)
         app.register_blueprint(users.bp)
         return app
+   
